@@ -1,18 +1,18 @@
 {
-"name": "tg-bot-full-menu",
-"version": "1.0.0",
-"description": "Telegram bot nhiều tính năng, đẹp nút bấm, chạy Render với webhook",
-"main": "index.js",
-"scripts": {
-"start": "node index.js"
-},
-"engines": {
-"node": ">=18"
-},
-"dependencies": {
-"axios": "^1.7.7",
-"express": "^4.19.2",
-"node-telegram-bot-api": "^0.66.0",
-"uuid": "^9.0.1"
-}
+  "name": "bottest",
+  "version": "1.0.0",
+  "description": "Telegram bot chạy webhook",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "axios": "^1.7.7",
+    "uuid": "^9.0.1"
+  }
 }
